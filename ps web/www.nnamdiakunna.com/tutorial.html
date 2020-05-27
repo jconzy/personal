@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Nnamdi Akunna | portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+    
+    <!--================= nav starts here ==================-->
+    
+    <header>
+        <nav>
+            <div class="nav-class">
+                <section>
+                    <div class="container">
+                    <div class="banner_content text-right">
+						  <a href="justme.html">Just Me</a>
+						  <a href="mystuff.html">My stuff</a>
+				        </div>
+		          </div>
+	           </section>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="nav-class2"></div>
+    
+    <!--================ nav ends here =======================-->
+    
+    <!--================ service restart in mobile tab view and pc view and illustrating design ===================--->
+    <!--================ also display in tab view and current media query ===================-->
+    <!-- 500px by 1000px em px mm cs tab view -->
+    <!-- 250px by 500px em px mm cs bs slide view -->
+    
+	<!--================ Start Services Area =================-->
+	<section class="section_gap Services_area" id="work">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6 text-center">
+					<div class="main-title">
+						<h1>Watch My Tutorials</h1>
+						<p>here are some tutorials that can help you understand coding and design more.</p>
+					</div>
+				</div>
+			</div>
+            
+			<div class="projects_inner row grid gallery">
+				<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
+				
+				<div class="col-lg-3 col-sm-6 brand grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="../i.imgur.com/learn1.png" alt="">
+						<div class="projects_text">
+							<a class="image-popup-vertical-fit" href="../i.imgur.com/learn1.png" title="NOT AVAILABLE">
+								<h4>LEARN PHOTOSHOP</h4>
+							</a>
+							<p>Not available now</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 brand creative grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="../i.imgur.com/learn2.png" alt="">
+						<div class="projects_text">
+							<a class="image-popup-vertical-fit" href="../i.imgur.com/learn2.png" title="NOT AVAILABLE">
+								<h4>LEARN MOBILE APP DEV</h4>
+							</a>
+							<p>Not available now</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6 brand creative grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="../i.imgur.com/learn3.png" alt="">
+						<div class="projects_text">
+							<a class="image-popup-vertical-fit" href="../i.imgur.com/learn3.png" title="NOT AVAILABLE">
+								<h4>LEARN GRAPHIC DESIGN</h4>
+							</a>
+							<p>Not available now</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 brand grid-item">
+					<div class="projects_item">
+						<img class="img-fluid w-100" src="../i.imgur.com/learn4.png" alt="">
+						<div class="projects_text">
+							<a class="image-popup-vertical-fit" href="../i.imgur.com/learn4.png" title="NOT AVAILABLE">
+								<h4>LEARN WEB DEVELOPMENT</h4>
+							</a>
+							<p>Not avalable now</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+	<!--================ End Services Area =================-->
+    
+    <!--================ footer starts here =================-->
+    
+<!--
+    <footer>
+		<div class="footer row">
+			<div class="col-12 footer-nav">
+				<ul>
+					<li><a href="https://web.facebook.com/profile.php?id=100006136516639"><img class="
+                        img" src="icons/facebook.png" alt=""></a></li>
+	                <li><a href="https://twitter.com/j_conzy1"><img class="img" src="icons/twitter.png" alt=""></a></li> 
+	                <li class = "social_icon"><a href="https://www.instagram.com/j_conzy/"><img class="img insta" src="icons/instagram.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		</footer>
+-->
+    
+    <!--================ footer ends here =================-->
+    
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/theme.js"></script>
+	<script src="js/magnific.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			var typed1 = new Typed('#typed1',{
+				stringsElement: '#typed-strings1',
+				typeSpeed:80,
+				startDelay:500,
+				backDelay:5000,
+				loop: true
+			});
+		});
+		$(document).ready(function() {
+
+			$('.image-popup-vertical-fit').magnificPopup({
+				type: 'image',
+				closeOnContentClick: true,
+				mainClass: 'mfp-img-mobile',
+				image: {
+					verticalFit: true
+				}
+
+			});
+
+			$('.image-popup-fit-width').magnificPopup({
+				type: 'image',
+				closeOnContentClick: true,
+				image: {
+					verticalFit: false
+				}
+			});
+
+			$('.image-popup-no-margins').magnificPopup({
+				type: 'image',
+				closeOnContentClick: true,
+				closeBtnInside: false,
+				fixedContentPos: true,
+            	mainClass: 'mfp-no-margins mfp-with-zoom', 
+            	image: {
+            		verticalFit: true
+            	},
+            	zoom: {
+            		enabled: true,
+            		duration: 300 
+            	}
+
+            });
+
+			if(window.location.href.includes("team"))
+			{
+				$(document).scrollTop(450);
+			}
+
+			$('#work').on('click',function(){
+				$('ul.dropdown-menu').toggleClass("d-block"),ease;
+			});
+		});
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Roboto:400,500,500i");
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+
+h1,h2,h3,h4,h5,h6,div,span,a,body{
+  margin:0;
+  padding: 0;
+}
+
+/*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+
+img{
+user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.dark{ background-color: #33648B; color: #ffffff;}
+.darker{ background-color: #212939;  color: #ffffff;}
+.darkest{ background-color: #212129;  color: #ffffff;}
+.light{ color: #8CDEF7;}
+.fullwidth{width: 100%; display:block;}
+.float-right{float: right;}
+.float-left{float: left;}
+
+.container{
+    width: 100%;
+    padding: 0 8.33%;
+    display: table;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    overflow-y: scroll;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"], [class*="colFix-"]{
+  float: left;
+}
+
+.float-right{float: right;}
+.float-left{float: left;}
+
+
+/*-------------- main container starts here ------------*/
+
+.main-container{
+  width:100%;
+  height:500px;
+  margin: 0;
+  padding:60px 0 0px 0;
+  background: url(mapimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ins-main-container{
+  width:100%;
+  height:400px;
+  margin:0;
+    padding-bottom: 100px;
+/*  background:url(../images/photo.JPG) no-repeat top right;*/
+
+}
+
+.ins-con{
+  height:50%;
+  padding:0;
+  text-align: left;
+  display: table;
+  margin:0 8.33%;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  overflow: hidden;
+  
+}
+
+.txt-con{
+  width: 100%;
+  height:38%;
+  padding:15px 0 0px 0;
+  margin:0;
+  text-align: left;
+  display:table;
+  border-left: 3px solid #8cdef7;
+}
+
+.txt-con>p,h3,h4{
+  margin-left: 15px;
+  font-family: cursive;
+}
+.txt-con>h4{
+  display: inline;
+}
+
+.dropping-texts {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  height: 36px;
+  vertical-align: -18px;
+}
+
+.drop-con{
+    height: 30px;
+    margin-left: 15px;  
+}
+
+#dropping-text{
+  display: inline;
+  max-width: 350px;
+  text-align: left;
+  position:absolute; 
+  height: 25px;
+}
+
+.but-div{#
+  position: relative;
+  width: 100%;
+  height: 15%;
+  padding: 0;
+  margin: 20 0 0 5px;
+}
+
+.but-div a{
+ font-size: 14px;
+ font-weight: 100;
+ text-decoration: none;
+ color: #8cdef7;
+ font-family:"Karla","Chivo", "Roboto", sans-serif;
+ position: relative;
+ margin-left: 10px;
+ top: -10;
+}
+
+.mid-line{
+    height: 30px;
+    width: 1.2px;
+    background: #8cdef7;
+    display: inline-block;
+    margin-left:10px;
+}
+
+/*
+.button{
+  height: 36px;
+  width: 90px;
+  margin-right: 17px;
+  margin-top:35px;
+  background-color: rgb(255, 204, 41);
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  font-family:sans-serif;
+  color: rgb(0, 0, 0) !important;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  text-decoration: none;
+  border-radius: 7px;
+}
+*/
+
+/*---------------- main container ends here ---------------*/
+
+/*-------------- content1 container starts here ------------*/
+
+.content{
+    width: 100%;
+    padding:;
+    margin: 0;
+}
+
+.ins-content{
+    width: 52.33%;
+    height: 100%;
+    padding: 0px;
+    margin: 80px 23.83%;
+    text-align: justify;
+}
+
+.ins-content>p{
+    font-family: 'rubik', sans-serif;
+    font-weight: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 100%;
+    letter-spacing: 0.1px;
+}
+
+/*-------------- content1 container ends here -------------*/
+
+/*------------------- footer starts here -------------------*/
+
+.footer{
+  width:100%;
+  height:40px;
+  padding:0;
+  margin:0;
+  background-color: #212939;
+}
+
+.footer-nav{
+  height:40px;
+  min-width: 200px;
+  padding: 0;
+  text-align: center;
+  margin:0;
+}
+
+.footer-nav>ul{
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  padding:8px 0 0 0; 
+  list-style-type: none;
+  display: inline-block !important;
+  padding-inline-start: 0px !important;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+}
+
+.footer-nav>ul>li{
+  list-style-type:none;
+  display: inline;
+  padding:0;
+  margin:0 10px;
+  color:#000000;
+}
+
+.footer-nav>ul>li>a{
+  padding:0;
+  margin: 0;
+  color:#000000;
+  text-decoration:none;
+}
+
+.footer-nav>ul>li>a>img{
+  height:20px;
+  width:20px; 
+}
+
+.insta{
+    width: 23px !important;
+    height: 23px !important;
+}
+
+.footer-nav>ul>li>a>img.img{
+    opacity: 0.8;
+}
+
+.footer-nav>ul>li>a>img:hover{
+  opacity:0.6;
+}
+
+/*--------------------- footer ends here --------------------*/
+
+
+
+/*---------------- media queries starts here ----- ---------*/
+
+@media only screen and (max-width: 1000px){
+.ins-content{
+    width: 58.33%;
+    padding: 0;
+    margin: 50px 20.83%;
+    text-align: justify;
+}
+}
+
+@media only screen and (max-width: 890px){    
+.ins-con{
+    height: 50%;
+    }
+    
+.ins-content{
+    width: 64.33%;
+    padding: 0;
+    margin: 50px 17.83%;
+    text-align: justify;
+}
+    
+}
+
+@media only screen and (max-width: 672px){
+    
+.ins-content{
+    width: 70.33%;
+    padding: 0;
+    margin: 50px 14.83%;
+    text-align: justify;
+}
+}
+
+@media only screen and (max-width: 670px){
+    
+.ins-content{
+    width: 76.33%;
+    padding: 0;
+    margin: 50px 11.83%;
+    text-align: justify;
+}
+
+.button{
+  height: 35px;
+  width: 70px;
+  font-size: 14px;
+  margin-top:15px;
+}
+
+.main-container{
+  height:70%;
+}
+}
+
+@media only screen and (max-width: 607px){
+    .main-container{
+height: 75%;
+}
+    
+.ins-content{
+    margin-top: 80px;
+}
+}
+
+@media only screen and (max-width: 500px){
+.txt-con,.but-div{
+    opacity: 0.8;
+}
+    
+.ins-content{
+    width: 80.33%;
+    padding: 0;
+    margin: 0px 9.83%;
+    text-align: justify;
+}
+.ins-content>p{
+    line-height: 1.6;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+    .main-container{
+    height:460px;
+}
+    
+}
+
+@media only screen and (max-width: 400px){
+.txt-con>p,h3,h4{
+    font-size:15px;
+}
+    
+.ins-con{
+    height: 50%;
+}
+    
+.ins-content{
+    width: 88.33%;
+    padding: 0;
+    margin: 30px 5.83%;
+    text-align: justify;
+}
+.ins-content>p{
+    line-height: 1.5;
+    font-size: 13px
+    letter-spacing: 0;
+}
+
+.main-container{
+    height:460px;
+}
+}
+
+@media only screen and (max-width: 320px){
+    
+.ins-con{
+    height: 50%;
+}
+    
+.ins-content{
+    width: 88.33%;
+    padding: 0;
+    margin: 0px 5.83%;
+    text-align: justify;
+}
+.ins-content>p{
+    line-height: 1.5; 
+    letter-spacing: 0;
+    padding: 0;
+    font-size:12px;
+        
+}
+.txt-con>p,h3,h4{
+    font-size:15px;
+}
+
+.main-container{
+    height:460px;
+}
+}
+
+/*-------------- media queries ends here ------------*/
